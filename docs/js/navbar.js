@@ -54,6 +54,10 @@ const createNavBar = (intoEl) => {
       name: "SpeechKITT",
       href: "speechkitt.html",
     },
+    {
+      name: "Artyom",
+      href: "artyom.html",
+    },
   ];
   for (let item of navItems) {
     const li = document.createElement("li");

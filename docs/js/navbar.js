@@ -58,6 +58,10 @@ const createNavBar = (intoEl) => {
       name: "Artyom",
       href: "artyom.html",
     },
+    {
+      name: "Mini #0",
+      href: "mini-0.html",
+    },
   ];
   for (let item of navItems) {
     const li = document.createElement("li");
